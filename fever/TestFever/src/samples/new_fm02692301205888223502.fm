@@ -1,0 +1,420 @@
+
+.
+<submenu>
+<menu flags="0">
+	<symbol type="boolean" flags="41216" id="1540361632">
+	<name>HID_SUPPORT</name>
+	<property type="?"><expr>S@1540361632</expr><visible><expr>'INPUT'</expr></visible></property>
+	<property type="menu"><text><![CDATA[HID Devices]]></text><visible><expr>'INPUT'</expr></visible></property>
+	<property type="default"><expr>y</expr><visible><expr>'INPUT'</expr></visible></property>
+	</symbol>
+	<dep>'INPUT'</dep>
+</menu>
+
+<submenu>
+	<menu flags="0">
+	<dep>S@1540361632</dep>
+	</menu>
+	
+	<menu flags="0">
+	<symbol type="tristate" flags="41216" id="1540362720">
+	<name>HID</name>
+	<property type="?"><expr>S@1540362720</expr><visible><expr>(S@1540361632 &amp;&amp; 'INPUT')</expr></visible></property>
+	<property type="prompt"><text><![CDATA[Generic HID support]]></text><visible><expr>(S@1540361632 &amp;&amp; 'INPUT')</expr></visible></property>
+	<property type="default"><expr>y</expr><visible><expr>(S@1540361632 &amp;&amp; 'INPUT')</expr></visible></property>
+	</symbol>
+	<dep>(S@1540361632 &amp;&amp; 'INPUT')</dep>
+	</menu>
+
+	<submenu>
+		<menu flags="0">
+		<symbol type="boolean" flags="41216" id="1540363296">
+		<name>HIDRAW</name>
+		<property type="?"><expr>S@1540363296</expr><visible><expr>(S@1540361632 &amp;&amp; S@1540362720)</expr></visible></property>
+		<property type="prompt"><text><![CDATA[/dev/hidraw raw HID device support]]></text><visible><expr>(S@1540361632 &amp;&amp; S@1540362720)</expr></visible></property>
+		</symbol>
+		<dep>(S@1540361632 &amp;&amp; S@1540362720)</dep></menu>
+		
+		<menu flags="0">
+		<dep>(S@1540361632 &amp;&amp; S@1540362720)</dep></menu>
+		
+		<submenu>
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540363488">
+			<name>HID_3M_PCT</name>
+			<property type="?"><expr>S@1540363488</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[3M PCT]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540366096">
+			<name>HID_A4TECH</name>
+			<property type="?"><expr>S@1540366096</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[A4 tech]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540367040">
+			<name>HID_APPLE</name>
+			<property type="?"><expr>S@1540367040</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; ('USB_HID' || 'BT_HIDP'))</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Apple]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; ('USB_HID' || 'BT_HIDP')) &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; ('USB_HID' || 'BT_HIDP'))</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; ('USB_HID' || 'BT_HIDP'))</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540368112">
+			<name>HID_BELKIN</name>
+			<property type="?"><expr>S@1540368112</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Belkin]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+	
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540368960">
+			<name>HID_CHERRY</name>
+			<property type="?"><expr>S@1540368960</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Cherry]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540369712">
+			<name>HID_CHICONY</name>
+			<property type="?"><expr>S@1540369712</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Chicony]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+	
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540370464">
+			<name>HID_CYPRESS</name>
+			<property type="?"><expr>S@1540370464</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Cypress]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540371216">
+			<name>HID_DRAGONRISE</name>
+			<property type="?"><expr>S@1540371216</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[DragonRise Inc. support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+	
+			<submenu>
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540372000">
+				<name>DRAGONRISE_FF</name>
+				<property type="?"><expr>S@1540372000</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540371216)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[DragonRise Inc. force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540371216)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540371216)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540371216)</dep></menu>
+			</submenu>
+
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540373072">
+			<name>HID_EZKEY</name>
+			<property type="?"><expr>S@1540373072</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Ezkey]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540373744">
+			<name>HID_KYE</name>
+			<property type="?"><expr>S@1540373744</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Kye]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540374496">
+			<name>HID_GYRATION</name>
+			<property type="?"><expr>S@1540374496</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Gyration]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540375248">
+			<name>HID_TWINHAN</name>
+			<property type="?"><expr>S@1540375248</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Twinhan]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540376000">
+			<name>HID_KENSINGTON</name>
+			<property type="?"><expr>S@1540376000</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Kensington]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540376752">
+			<name>HID_LOGITECH</name>
+			<property type="?"><expr>S@1540376752</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Logitech]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<submenu>
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540377536">
+				<name>LOGITECH_FF</name>
+				<property type="?"><expr>S@1540377536</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[Logitech force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</dep></menu>
+
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540378864">
+				<name>LOGIRUMBLEPAD2_FF</name>
+				<property type="?"><expr>S@1540378864</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[Logitech Rumblepad 2 force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</dep></menu>
+
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540379536">
+				<name>LOGIG940_FF</name>
+				<property type="?"><expr>S@1540379536</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[Logitech Flight System G940 force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540376752)</dep></menu>
+			</submenu>
+		
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540380368">
+			<name>HID_MICROSOFT</name>
+			<property type="?"><expr>S@1540380368</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Microsoft]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540381072">
+			<name>HID_MONTEREY</name>
+			<property type="?"><expr>S@1540381072</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Monterey]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540381824">
+			<name>HID_NTRIG</name>
+			<property type="?"><expr>S@1540381824</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[NTrig]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540382400">
+			<name>HID_ORTEK</name>
+			<property type="?"><expr>S@1540382400</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Ortek]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+	
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540383168">
+			<name>HID_PANTHERLORD</name>
+			<property type="?"><expr>S@1540383168</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Pantherlord support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<submenu>
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540384064">
+				<name>PANTHERLORD_FF</name>
+				<property type="?"><expr>S@1540384064</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540383168)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[Pantherlord force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540383168)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540383168)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540383168)</dep></menu>
+			</submenu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540384912">
+			<name>HID_PETALYNX</name>
+			<property type="?"><expr>S@1540384912</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Petalynx]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540385584">
+			<name>HID_QUANTA</name>
+			<property type="?"><expr>S@1540385584</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Quanta Optical Touch]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540386192">
+			<name>HID_SAMSUNG</name>
+			<property type="?"><expr>S@1540386192</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Samsung]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540386944">
+			<name>HID_SONY</name>
+			<property type="?"><expr>S@1540386944</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Sony]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+			
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540387696">
+			<name>HID_STANTUM</name>
+			<property type="?"><expr>S@1540387696</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Stantum]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540388272">
+			<name>HID_SUNPLUS</name>
+			<property type="?"><expr>S@1540388272</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Sunplus]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+			<menu flags="0">
+			<symbol type="tristate" flags="41216" id="1540389024">
+			<name>HID_GREENASIA</name>
+			<property type="?"><expr>S@1540389024</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			<property type="prompt"><text><![CDATA[GreenAsia (Product ID 0x12) support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible>			<property>
+			<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+		
+			<submenu>
+				
+				<menu flags="0">
+				<symbol type="boolean" flags="41216" id="1540389984">
+				<name>GREENASIA_FF</name>
+				<property type="?"><expr>S@1540389984</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540389024)</expr></visible></property>
+				<property type="prompt"><text><![CDATA[GreenAsia (Product ID 0x12) force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540389024)</expr></visible></property>
+				<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540389024)</expr></visible></property>
+				</symbol>
+				<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540389024)</dep></menu>
+			</submenu>
+
+			
+		<menu flags="0">
+		<symbol type="tristate" flags="41216" id="1540390992">
+		<name>HID_SMARTJOYPLUS</name>
+		<property type="?"><expr>S@1540390992</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		<property type="prompt"><text><![CDATA[SmartJoy PLUS PS2/USB adapter support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+		<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		</symbol>
+		<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+		<submenu>
+			
+			<menu flags="0">
+			<symbol type="boolean" flags="41216" id="1540391600">
+			<name>SMARTJOYPLUS_FF</name>
+			<property type="?"><expr>S@1540391600</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540390992)</expr></visible></property>
+			<property type="prompt"><text><![CDATA[SmartJoy PLUS PS2/USB adapter force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540390992)</expr></visible></property>
+			<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540390992)</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540390992)</dep></menu>
+		</submenu>
+
+		<menu flags="0">
+		<symbol type="tristate" flags="41216" id="1540392512">
+		<name>HID_TOPSEED</name>
+		<property type="?"><expr>S@1540392512</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		<property type="prompt"><text><![CDATA[TopSeed Cyberlink remote control support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+		<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		</symbol>
+		<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+	
+		<menu flags="0">
+		<symbol type="tristate" flags="41216" id="1540393280">
+		<name>HID_THRUSTMASTER</name>
+		<property type="?"><expr>S@1540393280</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		<property type="prompt"><text><![CDATA[ThrustMaster devices support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+		<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		</symbol>
+		<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+
+		<submenu>
+			
+			<menu flags="0">
+			<symbol type="boolean" flags="41216" id="1540394224">
+			<name>THRUSTMASTER_FF</name>
+			<property type="?"><expr>S@1540394224</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540393280)</expr></visible></property>
+			<property type="prompt"><text><![CDATA[ThrustMaster devices force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540393280)</expr></visible></property>
+			<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540393280)</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540393280)</dep></menu>
+		</submenu>
+
+		<menu flags="0">
+		<symbol type="tristate" flags="41216" id="1540395184">
+		<name>HID_WACOM</name>
+		<property type="?"><expr>S@1540395184</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'BT_HIDP')</expr></visible></property>
+		<property type="prompt"><text><![CDATA[Wacom Bluetooth devices support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'BT_HIDP')</expr></visible></property>
+		</symbol>
+		<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'BT_HIDP')</dep></menu>
+
+		<menu flags="0">
+		<symbol type="tristate" flags="41216" id="1540395616">
+		<name>HID_ZEROPLUS</name>
+		<property type="?"><expr>S@1540395616</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		<property type="prompt"><text><![CDATA[Zeroplus based game controller support]]></text><visible><expr>(((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID') &amp;&amp; 'EMBEDDED')</expr></visible></property>
+		<property type="default"><expr>!'EMBEDDED'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</expr></visible></property>
+		</symbol>
+		<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; 'USB_HID')</dep></menu>
+
+		<submenu>
+	
+			<menu flags="0">
+			<symbol type="boolean" flags="41216" id="1540396368">
+			<name>ZEROPLUS_FF</name>
+			<property type="?"><expr>S@1540396368</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540395616)</expr></visible></property>
+			<property type="prompt"><text><![CDATA[Zeroplus based game controller force feedback support]]></text><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540395616)</expr></visible></property>
+			<property type="select"><expr>'INPUT_FF_MEMLESS'</expr><visible><expr>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540395616)</expr></visible></property>
+			</symbol>
+			<dep>((S@1540361632 &amp;&amp; S@1540362720) &amp;&amp; S@1540395616)</dep></menu>
+		</submenu>
+</submenu>
+</submenu>
+</submenu>
+</submenu>

@@ -1,0 +1,8 @@
+Commit,Feature Name, (Classif:Pattern) matched pattern, (VM:op) New, (VM:op) Removed, (VM:type) Bool-tri,(VM:type) Value, (VM:vis.) Visible ,(VM:vis.) Internal , (VM:opt.) Optional,(VM:opt.) Mandatory, (M:target) Folder,(M:target) C.U.,(M:target) CFF, (M:target_update) New with new asset, (M:target_update) New with existing asset,(M:target_update) Remove with asset,(M:target_update) Remove but preserved asset,(I:ccp_op) New condition wrapping new code,(I:ccp_op) New condition wrapping edited code,(I:ccp_op) New condition wrapping existing code,(I:ccp_op) Deleted condition with its code,(I:ccp_op) Deleted condition with code edit, (I:ccp_op) Deleted condition but preserve code,(I:ref_op) Add reference,(I:ref_op) Removed reference,
+1696d9dc57e062ce5200f6a42a6aaada15b434bb,ACPI_PROC_EVENT,RVONMF,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+994dcf7055df88623d25f3593b931a018a76b502,ALPHA_QEMU,AVONMF,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+6e2ac20e9c47cf26a1dd5a0f05b93ef0afd3c1c5,BCM_KONA_WDT_DEBUG,AVONMF,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+668761ac01d6f5a36b8e5a24d4e154550e2c4c3b,BRCMFMAC_SDIO_OOB,RVONMF,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,
+0ec315121c8391a14bbeb5eecc146c470dfc00cb,CAVIUM_OCTEON_HW_FIX_UNALIGNED,RVONMF,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,
+0b4cccbec60678212eccdb42dc1e1c233ddf7092,DEBUG_UART_8250_WORD,AVONMF,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+c817a67ecba7c3c2aaa104796d78f160af60920d,DEBUG_KOBJECT_RELEASE,AVONMF,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,

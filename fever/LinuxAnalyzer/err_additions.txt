@@ -1,0 +1,468 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+---38f993ad8b1fe4caf9e989caf6e2a25aff3bbaf7-USB_S2255
+---bbcd6d543de335bf81e96477f46a60a8bf51039c-GPIO_MAX732X
+---9aaca9683b014c4d718f32cbddb42e5b36ea3c0f-SND_AT32_SOC_PLAYPAQ
+skipping build change for SND_SOC as I can't seem to find its associated feature change
+---9aaca9683b014c4d718f32cbddb42e5b36ea3c0f-SND_AT32_SOC
+skipping build change for SND_SOC as I can't seem to find its associated feature change
+---1b2b03f8e514e4f68e293846ba511a948b80243c-MISDN
+---a5edeccb1a8432ae5d9fb9bccea5a4b64c565017-MDIO_OF_GPIO
+---3cadd2d98972f806165c634553ac4918b2b7920c-TOUCHSCREEN_INEXIO
+---862c2c0a61c515f2e9f63f689215bcf99a607eaf-SND_SGI_O2
+---17f9ecf34aaa0ade5c89aba603847309c849297c-SND_OMAP_SOC_OSK5912
+---c0b4e3ab0c769913438aeb078535ff117eeba5fb-SENSORS_ADT7462
+---b53cde3557b8f97e6a635782875d442551a89bf1-FB_TMIO
+---b18250a8f66050bd2a52287cd543fb93100e8ee0-LCD_CORGI
+---a611d0ca006fe76d88b8dd5ac44f4468293b6760-DVB_DM1105
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+---030a07e441296c372f946cd4065b5d831d8dc40c-SND_USB_US122L
+---cfbc619033d3a2eee8f7aa9314e21b96cf34d399-W1_SLAVE_BQ27000
+---da09155ac8d3f04c299b3d82a6ab0df8d03da632-REGULATOR_WM8350
+---5f119f29063c9a9bf1ab40112c02710c2db84f29-RTC_DRV_DS1286
+---f41507245ef8b079685aba8da5b5b2b5e87e70bc-SFC_MTD
+---ec9a943ce9f6d6a8ea09587b49d29a020c418c76-LEDS_ALIX2
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---d5e54913433fff89609adfc4b96fefcf807a9030-HVC_UDBG
+---3fedd14818592016f7ffd84dfe134881b3896ecf-ME1400
+---3fedd14818592016f7ffd84dfe134881b3896ecf-ME1600
+---3fedd14818592016f7ffd84dfe134881b3896ecf-ME6000
+---3fedd14818592016f7ffd84dfe134881b3896ecf-ME8100
+---84c9dc212ace974acf2ccfc5a97e83796c6385b2-COMEDI_USB_DRIVERS
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---4e96fd088cf6fb95ba4b212e5e72bac1e6d34e79-SOC_CAMERA_MT9T031
+---6e34b187bc216fc632769fb8b906d3a29ccd8f14-SENSORS_LTC4245
+---c2e591fcb7aa5300cf6967edb29960628cf1831d-DVB_S921
+skipping build change for obj-m as I can't seem to find its associated feature change
+---f71f11ed46df2f29daf928eb5fd8c6c2d1455f36-DVB_LGDT3304
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-m as I can't seem to find its associated feature change
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+---47a72688fae7298e1ad5fdc9bff7e04b6a549620-MTD_VMU
+---9c3c133b1ed6e6d01bfabb6de29bf3d0f0886354-HW_RANDOM_TIMERIOMEM
+---ac2dd0f110d5ab0359de7786e88e9971954ac7ee-LEDS_DAC124S085
+---3bcfa9e47a7d1be6faef3be6c4b2049e585e2f38-SENSORS_G760A
+---a66098daacee2f354dab311b58011e7076aa248c-MWL8K
+---7377226c344a7295a7573dce400ce9ddd42f0ca4-SND_PXA2XX_SOC_MAGICIAN
+---3f866fbd52d1863db5c07700e560aef22c4fdc01-DRAGONRISE_FF
+---ea149b36c7f511d17dd89fee734cb09778a91fa0-X86_MCE_INJECT
+---6ffee43ecf8bfbe0bd74c9084c9772a59097d53b-SND_MPC52xx_SOC_EFIKA
+---20d0e1520ed1ba8aad05f416245446de0f7ec4bb-SND_SOC_MPC5200_AC97
+---e86435eb91b2bff114c5a02e46e16ce21b647ebe-ACERHDF
+not sure what type of reference change I am dealing with, skipping.
+---4510d7cb8b4e7d389652b8a4f89fad469a5ecc92-USB_NET_INT51X1
+---87cf65601e1709e57f7e28f0f7b3eb0a992c1782-USB_CDC_PHONET
+---55f4fa4e33e90c6b25b4c8ed038392a73b654fef-REGULATOR_MAX1586
+---39549eef3587f1c1e8c65c88a2400d10fd30ea17-CAN_DEV
+skipping build change for CAN_DEBUG_DEVICES as I can't seem to find its associated feature change
+---14412acde5b57450b8afb3d4b03132419b6abebf-SND_S3C24XX_SOC_SIMTEC_TLV320AIC23
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---c114728af2acdca0bd8b1d2f5792e393c775f5fc-SCLP_ASYNC
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---78632b609a71ff2f598b114026fca03747f3a8c8-TSL2561
+skipping build change for obj-y as I can't seem to find its associated feature change
+---707b2ce6c1f4f1261788f2ff09ad82c35e0e6240-MISDN_W6692
+---60479690af6d559d4202bed139db90323386bd2b-VME_CA91CX42
+skipping build change for obj-y as I can't seem to find its associated feature change
+---9fcd66e572b94974365a9119b073e0a43d496eb7-SERIAL_BCM63XX
+skipping build change for obj-y as I can't seem to find its associated feature change
+---89803d83b69c5ce05c590f01a0ba92b99d28b057-CAPTURE_DAVINCI_DM646X_EVM
+---f619106bdd9d197c947f07108af57946f19a7f7e-SCSI_3W_SAS
+---f5f96b93e745dd054110d511779e7ec5cfdfdfe6-TOUCHSCREEN_S3C2410
+---95963cbcd0ee00026cc34ba84906ee4aa2029f4d-MEDIA_TUNER_MAX2165
+---43299f285937c907abcdd987c670c755194943cc-RTC_DRV_MC13783
+---63978ab3e3e963db28093b53bb4598f2702e1ad7-SND_USB_UA101
+---d50f8f339f6901fccc9d4292b65ce8b69d7413d4-MFD_MAX8925
+---d07e8bf83fd71567aaf9c27c3b133ab3cf8f3c4c-BACKLIGHT_88PM860X
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---358934a60d2180dcd1ed20691dbb66d4fb977ab2-SPI_DAVINCI
+---77f720b71d88a3cbf574c113566a31c93099f97d-HID_MOSART
+---671ece14bc58a88dea76b11c5745a09c33934663-ADIS16209
+skipping build change for IIO_RING_BUFFER as I can't seem to find its associated feature change
+---1e3864e63576e33dd1b26ab750ffaab3066aaba9-ADIS16300
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for IIO_RING_BUFFER as I can't seem to find its associated feature change
+---14e40f644b020d473415342461b7c62e3bb5e312-LEDS_NET5501
+not sure what type of reference change I am dealing with, skipping.
+---a9885c8f7bf62e251fc178f838b9f0ee897c158a-HID_ZYDACRON
+---08b3924b24cdb1942393dc3009335a2153bd2eac-BACKLIGHT_EP93XX
+not sure what type of reference change I am dealing with, skipping.
+---c88c4e4c7a427ee65556f33e6327b604ec209ec3-HYPERV_UTILS
+---2671717265ae6e720a9ba5f13fbec3a718983b65-INTEL_IDLE
+not sure what type of reference change I am dealing with, skipping.
+---86a8938078a8bb518c5376de493e348c7490d506-ATOMIC64_SELFTEST
+---9701dc94a14e54a33c3c99744ec3a761f6385fc6-VIDEO_TM6000
+---7fdcef8a414eaeb367b3696005b25283d62d195d-LEDS_MC13783
+---787a51a0878f7bee3a9a83040077301e1556b69a-NET_SCTPPROBE
+---fdc50a9444b9781f4dd5aa5f7453300d2688cc5f-MMC_SH_MMCIF
+---79cb8ced7eef53856b5a877db0544acf52e00c80-SQUASHFS_LZO
+---5bf1d290b57e392eaf4bfb15c67f315fce4140be-BMP085
+---d843fc6e9dc9bee7061b6833594860ea93ad98e1-SERIAL_MFD_HSU
+---225109957a74c571c49e860fcc4e81fa6df1079d-SERIAL_MRST_MAX3110
+---96cb4eb019ce3185ec0d946a74b5a2202f5067c9-F71808E_WDT
+---2ff729d506e8db82d76a93bc963df4d0a4d46b57-ACPI_APEI_ERST_DEBUG
+---ca4146985db7cbb97816e9b961b8db79e63d9e86-IR_LIRC_CODEC
+---14f184e6d19855384ec6468d6894a6e48ed3f869-LIRC_IGORPLUGUSB
+---96d8e90382dc336b5de401164597edfdc2e8d9f1-CAN_ESD_USB2
+---b0547a70db38ee851a32306ee2e1e43a1e0d28ea-SND_SOC_TAVOREVB3
+---a9533e7ea3c410fed2f4cd8b3e1e213e48529b75-BRCM80211_PCI
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-m as I can't seem to find its associated feature change
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+skipping build change for PCIFILES as I can't seem to find its associated feature change
+skipping build change for PCI_CFLAGS as I can't seem to find its associated feature change
+skipping build change for MODULEPFX as I can't seem to find its associated feature change
+skipping build change for BRCM80211_OFILES as I can't seem to find its associated feature change
+---24b4b67d17c308aaa956b73ab1e88190f6642bbe-TTY_PRINTK
+---1f1846c6ceed07c03ef036a27864befe0f773997-IMX_DMA
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---6bc235a2e24a5ef677daee3fd4f74f6cd643e23c-USB_YUREX
+---c6e3fd22cd538365bfeb82997d5b89562e077d42-SPEAKUP_SYNTH_DECTLK
+---c6e3fd22cd538365bfeb82997d5b89562e077d42-SPEAKUP_SYNTH_DTLK
+---602adf400201636e95c3fed9f31fba54a3d7e844-BLK_DEV_RBD
+---bb6f19eafe3a1a5dd937ce66668e70aeaa1b0bf4-ADIS16204
+skipping build change for IIO_RING_BUFFER as I can't seem to find its associated feature change
+---df660251eb534649f90f9dcfe1da1cef4ea48a3e-XEN_BACKEND
+skipping build change for obj-y as I can't seem to find its associated feature change
+---a1044e36e457fb6dbdf90ce756d578b251d99b5e-CAN_SLCAN
+---82148d1d0b2f369851f2dff5088f7840f9f16abf-X86_32_IRIS
+---e8ada962bc2e34e964d370f721994387df7b1363-AD7298
+---3c6a483275f47a2ef7119309ad3d791c10cf30da-SERIAL_PCH_UART
+---9bd060e492a2725c55404988ceed473a090bd04d-SOC_CAMERA_OV9740
+[Fatal Error] old_fm08698702177320520589.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm08698702177320520589.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] new_fm04865297487871148576.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm04865297487871148576.fm
+ producing an empty feature model for this one (might be perfectly valid)
+skipping build change for SOC_CAMERA_OV9740 as I can't seem to find its associated feature change
+---bd7e4e85f3b8e5c7ea2f09d0b3350b264e339a14-KEYBOARD_QT1070
+---dcfb81d61da1367e52f7f7e3ceff0d0044c3c7ee-MTD_LATCH_ADDR
+---442aba78728e77e03172ba83e905b9aff96febcf-SENSORS_PMBUS
+---5efb94ee144c1c7290652495a0f4f29cae845a62-HW_RANDOM_PICOXCELL
+---0070bddfe7275e5bc763884a8ac59651f4e79eab-SENSORS_TWL4030_MADC
+---798a8eee44da56b4f2e000ff81dfb49d09c65b71-TPS6105X
+---b9618c0cacd7cf56cc3d073c1e9e9a8a3a12864e-AD7606
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for IIO_RING_BUFFER as I can't seem to find its associated feature change
+---8d77c036b57cf813d838f859e11b6a188acdb1fb-FTMAC100
+not sure what type of reference change I am dealing with, skipping.
+---949a12e3a87281e38d3520823e7e171bbe45b448-DVB_DRXD
+[Fatal Error] old_fm03897192436481021077.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm03897192436481021077.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] new_fm04635751214886954101.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm04635751214886954101.fm
+ producing an empty feature model for this one (might be perfectly valid)
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for DVB_DRXD as I can't seem to find its associated feature change
+---61ec9016988f5c030e96e3c8a42ee9e11b8517aa-SERIAL_XILINX_PS_UART
+---8e8ec596e6c0144e2dd500a57ee23dde9684df46-CRYPTO_DEV_FSL_CAAM_CRYPTO_API
+---d6f087ec9c7ba029419762273a685460c93c8454-AD7780
+---e561bc45920aade3f8a5aad9058a00e750af1345-GOOGLE_MEMCONSOLE
+---36682b81de32090f5c9fac165e71ab8939aab8c0-KEYBOARD_MPR121
+---cfee95977bea090ae5ec4fd442ebd381792d46c4-OLPC_XO1_RTC
+---f7eb6c5e8e5e1e96c36763778e9a78b9da6fcd31-REGULATOR_AAT2870
+---68d1c4a73c424061d0de760e04387e3e731c7da4-SND_OMAP_SOC_OMAP4_HDMI
+---13abadad177074b84f6697639e1d4f64a55b1773-VIDEO_ADP1653
+[Fatal Error] old_fm06427483405377402483.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm06427483405377402483.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] new_fm04175344101333695939.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm04175344101333695939.fm
+ producing an empty feature model for this one (might be perfectly valid)
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for VIDEO_ADP1653 as I can't seem to find its associated feature change
+---ceb80363b2ec1091dffd78064771e3d4679f69c7-USB_NET2272
+not sure what type of reference change I am dealing with, skipping.
+---3f0292ae8bb100cc8f96106a3de277df48134887-REGULATOR_GPIO
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---97cc26576fa2b0eb1aad1b29515bb0a32f86c45c-NVEC_LEDS
+---b2ce305dda483e59a78d5aa6e4211034c0cea38d-SND_SOC_DB1000
+---3d5e2cabf11a65685e5067382ba4c4a76f18fcb7-AB5500_CORE
+---3bb3dbbd56ea39e5537db8f8041ea95d28f16a7f-CHARGER_MANAGER
+---8f97339d3feb662037b86a925e692017c0b32323-IP_NF_MATCH_RPFILTER
+---c03f2c5368183687660b1d39350a153aeb8a1a6a-AD5380
+---dc3c56b703dad4aec8a9b3dd86f03a90d0c26a2d-VIA_WDT
+not sure what type of reference change I am dealing with, skipping.
+---e9a4593cc5e36c6d47c87b439cb41c2568e7395f-LEDS_OT200
+---d84083268bd707ebb8ed2f4fc26ebc7a0c453a83-DRM_EXYNOS_HDMI
+---c975dd469d748ce619c510050d4fb407c2398591-BTRFS_FS_CHECK_INTEGRITY
+---5db6b777f68603bf5a9eab891d83413ad894a074-SXG
+---6bde3ed98d9d0bc2e71b3123b003d5614debda74-FB_VIA
+not sure what type of reference change I am dealing with, skipping.
+---91da11f870f00a3322b81c73042291d7f0be5a17-NET_DSA
+---99e06e372378c5833a0c60274b645dfb2e4a4b08-USB_ATMEL
+---e6d69d91d575d0fb573d3103e1fdff6ec98e52b6-USB_SERIAL_ATEN2011
+---847ec80bbaa76aae41062d6802cea9c1b2289f14-IIO
+---3908c6902372206cc582ecf459af889b09a150c9-CAIF
+skipping build change for export-objs as I can't seem to find its associated feature change
+skipping build change for clean-files as I can't seem to find its associated feature change
+skipping build change for ccflags-y as I can't seem to find its associated feature change
+skipping build change for clean-dirs as I can't seem to find its associated feature change
+skipping build change for CAIF_DBG_FLAGS as I can't seem to find its associated feature change
+---126bb03b461c2f03f2d2a43b9a587941bf146e0e-USB_ENESTORAGE
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+---85e09b40405b44b049500702beb6856646b4be46-RTL8192SE
+skipping build change for ccflags-y as I can't seem to find its associated feature change
+---1dac4186bcc663cb8c2bcc59481aea8fe9124a6c-RTS5139
+skipping build change for obj-m as I can't seem to find its associated feature change
+skipping build change for TARGET_MODULE as I can't seem to find its associated feature change
+skipping build change for common-obj as I can't seem to find its associated feature change
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+---3ab83521378268044a448113c6aa9a9e245f4d2f-KEXEC_JUMP
+---516cbf3730c49739629d66313b20bdc50c98aa2c-CMDLINE_BOOL
+---516cbf3730c49739629d66313b20bdc50c98aa2c-CMDLINE_OVERRIDE
+---67f854b910613eeffec4fe71e35c0cd8c32c82ec-SND_BF5XX_MULTICHAN_SUPPORT
+---79e539453b34e35f39299a899d263b0a1f1670bd-DRM_I915_KMS
+skipping build change for DRM_I915 as I can't seem to find its associated feature change
+---e4adca27bcbb8a73c4cf1dfa71392654cfa33345-DEVPTS_MULTIPLE_INSTANCES
+---30d65dbfe3add7f010a075991dc0bfeaebb7d9e1-RD_BZIP2
+skipping build change for lib-y as I can't seem to find its associated feature change
+---b14f8ab2844987f013253dd04b708bde7fc1b52d-EXOFS_DEBUG
+---06b3db1b9bccdc8c2c743122a89745279e5ecc46-FSCACHE_DEBUG
+---b4be468cc1e65110d9144751bf7079dad6f142b7-TOUCHSCREEN_AD7879_SPI
+---e32a7eccd7f016928dd864711ac654e6db62c5f3-USB_PWC_INPUT_EVDEV
+---26e744b6b61066203fd57de0d3962353621e06f8-USB_GSPCA_SN9C20X_EVDEV
+not sure what type of reference change I am dealing with, skipping.
+---0b91421857414f525690ee452c0b0acb6ab1dba3-BFIN_JTAG_COMM_CONSOLE
+---7d46d9e6dbffe8780aa8430a63543d3f7ba92860-KMEMCHECK_ENABLED_BY_DEFAULT
+---7d46d9e6dbffe8780aa8430a63543d3f7ba92860-KMEMCHECK_ONESHOT_BY_DEFAULT
+---47dd7a540b8a0cdc028914b7351fca0cf0a1d305-STMMAC_DA
+---4d4036e0e7299c6cbb2d2421b4b30b7a409ce61a-OPROFILE_EVENT_MULTIPLEX
+---73a19e4c0301908ce6346715fd08a74308451f5a-SERIAL_SH_SCI_DMA
+---c6c560085172c16a0141ab12ae765c7d1be68279-USB_FUNCTIONFS_GENERIC
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for USB_ETH_FUNCTIONFS as I can't seem to find its associated feature change
+---ef3eb71d8ba4fd9d48c5f9310bc9d90ca00323b4-ZFCP_DIF
+---817e5c65c511d4a83686333ae75507deb4b55d5e-AD2S1210_GPIO_INPUT
+---24fa0402a9b6a537e87e38341e78b7da86486846-XZ_DEC_IA64
+not sure what type of reference change I am dealing with, skipping.
+---24fa0402a9b6a537e87e38341e78b7da86486846-XZ_DEC_SPARC
+not sure what type of reference change I am dealing with, skipping.
+---cffd9348a3ae87ac98a4b3c03a5359e28ad50b93-NTSC_YCBCR
+---f95f3850f7a9e1d49ebc5b6e72e7cc3ec3685b0b-MMC_DW_IDMAC
+---b7ca01a9b20e3fdd11745227905e9ad8a99e0123-FB_CYBER2000_I2C
+---aca355b9784fbc960c9caa6b30f953a965296420-RT2800USB_RT53XX
+---095c0aa83e52d6c3dd7168610746703921f570af-PARAVIRT_TIME_ACCOUNTING
+---7646887a5390123475fdd621620b9f270b38df98-MAC80211_VERBOSE_MPATH_DEBUG
+---991d9fa02da0dd1f843dc011376965e0c8c6c9b5-DM_DEBUG_SPACE_MAPS
+skipping build change for DM_PERSISTENT_DATA as I can't seem to find its associated feature change
+---7657cacf478940b995c2c73fdff981c13cc62c5c-SQUASHFS_4K_DEVBLK_SIZE
+---0cb38d65efa0304e9a948fd7aef9c7d38ad8cbb9-IWLWIFI_P2P
+---366d19e181be873c70f4aafca3931d77d781ccd7-MATOM
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for X86_32 as I can't seem to find its associated feature change
+skipping build change for BITS as I can't seem to find its associated feature change
+---45f81b1c96d9793e47ce925d257ea693ce0b193e-JUMP_LABEL
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for ADD_ACCUMULATE_OUTGOING_ARGS as I can't seem to find its associated feature change
+skipping build change for cflags-$(ADD_ACCUMULATE_OUTGOING_ARGS) as I can't seem to find its associated feature change
+skipping build change for FUNCTION_GRAPH_TRACER as I can't seem to find its associated feature change
+---30295c8936f3a426985e99bebb17d72bd7847910-AR600x_DUAL_ANTENNA
+skipping build change for ATH6KL_GPIO_BT_RESET as I can't seem to find its associated feature change
+skipping build change for ccflags-y as I can't seem to find its associated feature change
+---b77e5228849fdcd7a5d73beb16b9ad99395236ec-DE2104X_DSL
+---6b7d8f8b5c43f7bedda750d8a9dab0658da1d2ba-SERIAL_ALTERA_UART_MAXPORTS
+---24278d148316d2180be6df40e06db013d8b232b8-RCU_BOOST_PRIO
+---0e77e78410245894e5ebde30dc68ced6daa81bce-SND_SOC_AD73311
+---cf85d08fdf4548ee46657ccfb7f9949a85145db5-NET_DSA_TAG_DSA
+---1c0090c280da18f79e3e94168b5f3bfe4eb5f1c8-SND_SOC_PCM3008
+---4b166da939012905f4c36fedada62067db31948e-SND_S6000_SOC_I2S
+skipping build change for SND_SOC as I can't seem to find its associated feature change
+---9db9ed977d4f1a317f5f4d467d43025fa27223d8-SND_SOC_MAX9877
+---a3a83d9a7cb0ce3b1d100060d5ad777e7480b4f2-SND_SOC_AK4642
+---9d20015391dfc47f6371492925cc0333ac403414-FB_MSM_LCDC_PANEL
+skipping build change for FB_MSM_MDDI_TOSHIBA_COMMON as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LCDC_GRAPEFRUIT_VGA as I can't seem to find its associated feature change
+skipping build change for MDP_PPP_ASYNC_OP as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LOGO as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDP40 as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LCDC_GORDON_VGA as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_TOSHIBA_WVGA as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_AUTO_DETECT as I can't seem to find its associated feature change
+skipping build change for FB_MSM_EXTMDDI as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LCDC_TOSHIBA_WVGA_PT as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LCDC_EXTERNAL_WXGA as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI as I can't seem to find its associated feature change
+skipping build change for FB_MSM_LCDC_SHARP_WVGA_PT as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_TOSHIBA_COMMON_VGA as I can't seem to find its associated feature change
+skipping build change for FB_MSM_OVERLAY as I can't seem to find its associated feature change
+skipping build change for FB_BACKLIGHT as I can't seem to find its associated feature change
+skipping build change for FB_MSM_EBI2_TMD_QVGA_EPSON_QCIF as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_TOSHIBA_WVGA_PORTRAIT as I can't seem to find its associated feature change
+skipping build change for FB_MSM_EXTMDDI_SVGA as I can't seem to find its associated feature change
+skipping build change for FB_MSM_HDMI_SII_EXTERNAL_720P as I can't seem to find its associated feature change
+skipping build change for DEBUG_FS as I can't seem to find its associated feature change
+skipping build change for FB_MSM_EBI2 as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_SHARP_QVGA_128x128 as I can't seem to find its associated feature change
+skipping build change for FB_MSM_MDDI_PRISM_WVGA as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+---49d7ad9d8a5546d96061f08de1fb30241140849c-SND_SOC_WL1273
+---a710770e05563fd5add9af686569ee9fa56bbd65-SND_SOC_DMIC
+---31ef9134eb52636d383a7d0626cbbd345cb94f2f-SND_FIREWIRE_LIB
+skipping build change for SND as I can't seem to find its associated feature change
+---c93993aca45a223452d2a95383b655c85878c6e8-SND_SOC_WM8915
+---689b956e2cf87bf3f67163964d69bca97befafaa-SND_SOC_RT5631
+---ab10023e0088d5075354afc7cb9e72304757dddd-CPU_PM
+---fd26f9474676bb2232ba9dded148edc41fd02ef4-SND_OMAP_SOC_DMIC
+---995187bed30c0545e8da88372e9807da0a85911e-IR_NEC_DECODER
+skipping build change for IR_CORE as I can't seem to find its associated feature change
+---347ec4e47dd249c0620f429d8458fc42eed63e0e-GPIO_S5PV210
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping build change for CPU_S5PV210 as I can't seem to find its associated feature change
+---0bbfa259ac9f678e3f3d1a7eb7f51d14840c6851-DRM_PSB_MRST
+skipping build change for DRM_PSB as I can't seem to find its associated feature change
+---eeb00c604ad203a51a0b92e124bcc4f98ba7e2c0-USB_GSPCA_PAC207
+skipping build change for USB_GSPCA_SONXIJ as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_SUNPLUS as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_TV8532 as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA as I can't seem to find its associated feature change
+---eeb00c604ad203a51a0b92e124bcc4f98ba7e2c0-USB_GSPCA_STK014
+skipping build change for USB_GSPCA_SONXIJ as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_SUNPLUS as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_TV8532 as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA as I can't seem to find its associated feature change
+---eeb00c604ad203a51a0b92e124bcc4f98ba7e2c0-USB_GSPCA_VC032X
+skipping build change for USB_GSPCA_SONXIJ as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_SUNPLUS as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA_TV8532 as I can't seem to find its associated feature change
+skipping build change for USB_GSPCA as I can't seem to find its associated feature change
+---e2ca307439fb9df922c3e8891289a2ac05812fb7-I2C_SMBUS
+skipping build change for I2C as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_ME_DAQ
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_ME4000
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_PCL730
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_S626
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_SERIAL2002
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---f1d7dbbef51a624ff0ec76f022802d677fdb9888-COMEDI_DAS6402
+skipping build change for COMEDI_USB_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCMCIA_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI_PCI_DRIVERS as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+skipping build change for COMEDI as I can't seem to find its associated feature change
+---ff850c339a1a6a7724537160c73cdc09a483fc5d-THINKPAD_ACPI_ALSA_SUPPORT
+---de1ebdceb6a4fe1b7073b81d273285b7c8bed312-RT2800USB_RT30XX
+---9a7780c9acb821fe1c2b6fc53f74cc2556ff5364-ATA_BMDMA
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---6de5bd128d381ad88ac6d419a5e597048eb468cf-BKL
+---5d7d18f5bc507b60d3d8967e2739d5e6ffdd630f-STRIP_ASM_SYMS
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_MODULES :=
+skipping build change for clean as I can't seem to find its associated feature change
+skipping build change for hdr-inst as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_vmlinux as I can't seem to find its associated feature change
+---2521f2c228ad750701ba4702484e31d876dbc386-GCOV_PROFILE_ALL
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_MODULES :=
+skipping build change for clean as I can't seem to find its associated feature change
+skipping build change for hdr-inst as I can't seem to find its associated feature change
+skipping build change for EXTRA_CFLAGS as I can't seem to find its associated feature change
+skipping build change for _c_flags as I can't seem to find its associated feature change
+---8369ae33b705222aa05ab53c7d6b4458f4ed161b-BCMA_DEBUG
+---72246da40f3719af3bfd104a2365b32537c27d83-USB_DWC3_VERBOSE
+---7a8576204333d133d58cbcc59dacf49a5546e3e4-USB_PXA25X_SMALL
+---03010a3350301baac2154fa66de925ae2981b7e3-EXT4_FS_XATTR
+---7a6b6f515f77d1c62a2f383b6dce18cb0af0cf4f-IXGBE_DCB
+skipping build change for DCB as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+---3b937a7dbddbedd9457b33fcc8fa369c0c229c6e-ORION_WATCHDOG
+---bf46b9a92e45044d0b41beed61ae118e560dd3e4-SPECTRA_EMU
+---b3d23688a15c4c332942f9428e0d708e7362e29e-TIDSPBRIDGE_RECOVERY
+---16a4bfb9e9dfefbd28ee170fa3e259bc88d81eb5-ZRAM
+---8c1b5306f0da93f5f9bb9aa7024828cb2b7ab387-SND_SOC_SAMSUNG_SMDK_WM8994
+---8c1b5306f0da93f5f9bb9aa7024828cb2b7ab387-SND_SOC_SAMSUNG_SMDK_WM9713
+---00d201001bd4e8a46e3d03c970abcb72256c368b-WL12XX_SDIO
+skipping build change for WL12XX as I can't seem to find its associated feature change
+skipping build change for NL80211_TESTMODE as I can't seem to find its associated feature change
+---64e62426f40d1017a7ced93ee71d333529196365-USBIP_DEBUG
+---2373f6b9744d5373b886f3ce1a985193cca0a356-I2C_DESIGNWARE_PLATFORM
+not sure what type of reference change I am dealing with, skipping.
+---d31751679897441d89e6ae59da98f1424b3f7dfe-IWLEGACY_DEBUG

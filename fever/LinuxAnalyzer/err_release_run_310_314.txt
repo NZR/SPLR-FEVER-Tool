@@ -1,0 +1,779 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---d1c02452a2d0bca01c5bcc81de502746c6a1dde1
+---206f060c21503f33f9716710715cabba602355d5
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---38bd6892abbf7d60b1e9ff7f1a2b8019b552eed3
+---17b80976f0aa28842593dae8b05fae9274b51375
+---38bd6892abbf7d60b1e9ff7f1a2b8019b552eed3
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---9e0967572e5a0e8c887b2d71192bdad342e8a3dd
+---938d0a840d0f97b627111fd038a735f3924fd987
+not sure what type of reference change I am dealing with, skipping.
+---4b08478422040ae8cb11acc15d51f1cdb0ac39c8
+skipping build change for KBUILD_AFLAGS as I can't seem to find its associated feature change
+skipping build change for head-y as I can't seem to find its associated feature change
+skipping build change for LIBGCC as I can't seem to find its associated feature change
+skipping build change for boot as I can't seem to find its associated feature change
+skipping build change for BOARD as I can't seem to find its associated feature change
+skipping build change for LDFLAGS as I can't seem to find its associated feature change
+skipping build change for ifdef PLATFORM as I can't seem to find its associated feature change
+skipping build change for MODEL as I can't seem to find its associated feature change
+skipping build change for libs-y as I can't seem to find its associated feature change
+skipping build change for PLATFORM as I can't seem to find its associated feature change
+skipping build change for core-y as I can't seem to find its associated feature change
+skipping build change for KBUILD_CFLAGS as I can't seem to find its associated feature change
+skipping build change for CLEAN_FILES as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_zImage as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.bin as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.srec as I can't seem to find its associated feature change
+skipping build change for subdir- as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_piggy.o as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_vmlinux as I can't seem to find its associated feature change
+skipping build change for asflags-y as I can't seem to find its associated feature change
+skipping build change for IMAGE_OFFSET as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for MODULES as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+---e67f86b31ae5be8a88bec27b5ecb18dc2ffc9c56
+---ce77399226313a72578b5b0d67e289d3f165b8ba
+---623fd8072c7c4d77a184bc9e35192acf480c18e4
+---ffbc50663b69462adc9d97b93b6b92c4fe74b94c
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---b0db7b0c21a014d01be1018db68e78ebf7d4f0d7
+---ed683f138b3dbc8a5e878e24a0bfa0bb61043a09
+---05cefbe2f22e551594c5ec618102a35317bd050d
+skipping build change for obj-y as I can't seem to find its associated feature change
+---970585c68bfcf9f30cadbdf458c6b414e36862c3
+---dc2377d0b0a298ec9d7d232c0d757f462dedcca2
+---3acd16ab5c1c4e2a679c5c3e082db648f0e85100
+---416cf0b49e67254676b4762d1bab88df5130f909
+skipping build change for CFLAGS_trace.o as I can't seem to find its associated feature change
+---d8b212014e69d6b6323773ce6898f224ef4ed0d6
+---93d17247118ca533edd489f8e09bde417f4720ce
+---7a9989356b23fa2c7731632d3b575c53c1ac8bce
+[Fatal Error] new_fm14178533811543904949.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm14178533811543904949.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] new_fm36120535454985744043.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm36120535454985744043.fm
+ producing an empty feature model for this one (might be perfectly valid)
+---e85e335f8ff615f74e29e09cc2599f095600114b
+skipping build change for export KBUILD_AFLAGS as I can't seem to find its associated feature change
+skipping build change for AFLAGS_head.o as I can't seem to find its associated feature change
+---930beb5ac09aaeee48d81c57aec0d17a42a33ce8
+---a2388a498ad2f85be01aca29e364abf427d9b53c
+---0eeff27b49b78979bb4d37d1ff8dda6751fa0ad8
+---181c04a357bb791587c55a99362c2fdde2c64f18
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---429e4374cc007f260c7d0e2d0df5247deeaf8fbe
+---a977e18e4cfc2ed73cc5bf05642f21323d9ec517
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---7610b607b03ada21e89d964ec27d87a5b93c3d7f
+---d9a738597faf7cd2edeec82ce8fd81969fed8390
+skipping build change for 9P_FS as I can't seem to find its associated feature change
+---be8cb7f42ab9a8723082daa83ac28a11d4dde942
+---d8650106b4627b4686d56d8090a3d61b8ea001cd
+---635ad31002fad736af85adfc96bb9408fb813a7b
+---85bf6d4e4b100efda8169f6f98fd65d0029c7813
+---5e3dd157d7e70f0e3cea3f2573ed69fb156a19d5
+skipping build change for CFLAGS_trace.o as I can't seem to find its associated feature change
+---d3e5116119bd02ea7716bbe04b39c21bba4bcf42
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---b71d47c14fba6270c0b5a0d56639bf042017025b
+---8cedba7c73af1369599b1111639cfeb66fe13aaa
+---6a649f339802f104549e1fb211e381036661e244
+---d95c785500f60c59e4257385af2cfee7d4044809
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---9da8312048edcf246ac1d7ab6aa0293f252de559
+not sure what type of reference change I am dealing with, skipping.
+---73d6a69e3b3ae168fcb8d797e427c1b5fe132a40
+skipping build change for ARCH_SHMOBILE as I can't seem to find its associated feature change
+skipping build change for OF as I can't seem to find its associated feature change
+skipping build change for ARCH_AT91 as I can't seem to find its associated feature change
+---f114766088f352a47f57307ff927b815e0239644
+---1db9e0513d7478f6c80ca0bc4f58f53fe49e27f8
+---c5bfece2d6129131b4ade985e63bc35ddf5868d4
+---be8cb7f42ab9a8723082daa83ac28a11d4dde942
+---99b82abb0a35b07310ea6334257829af168c8e08
+---206f060c21503f33f9716710715cabba602355d5
+---4e5e4705bf69ea450f58fc709ac5888f321a9299
+---383ffda2fa8ff3c6380cc5be1eb6cde510de6fa8
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---4477ca45fb368880bf77b10ed3b24b03f0cc82da
+skipping weird line : LDFLAGS		:=
+skipping weird line : MACHINE  :=
+skipping weird line : MACHINE  :=
+skipping weird line : LDFLAGS		:=
+skipping weird line : MACHINE  :=
+skipping weird line : MACHINE  :=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---9e0967572e5a0e8c887b2d71192bdad342e8a3dd
+---e91a5555df5883bbc204b0e1f8e0489d3f7f3f2e
+skipping weird line : obj-m		:=
+skipping weird line : obj-n		:=
+skipping weird line : obj-		:=
+skipping weird line : obj-m		:=
+skipping weird line : obj-n		:=
+skipping weird line : obj-		:=
+skipping build change for OF as I can't seem to find its associated feature change
+skipping build change for ARCH_AT91 as I can't seem to find its associated feature change
+---17723fd357f9973d5dd2908e3cc6b4149d891429
+skipping weird line : LDFLAGS		:=
+skipping weird line : MACHINE  :=
+skipping weird line : MACHINE  :=
+skipping weird line : LDFLAGS		:=
+skipping weird line : MACHINE  :=
+skipping weird line : MACHINE  :=
+not sure what type of reference change I am dealing with, skipping.
+---9370761c56b66aa5c65e069a7b010111a025018d
+---78ded16886f539830ed58d9bc043656c1785a082
+skipping build change for ARCH_SHMOBILE as I can't seem to find its associated feature change
+skipping build change for OF as I can't seem to find its associated feature change
+skipping build change for ARCH_AT91 as I can't seem to find its associated feature change
+---206f060c21503f33f9716710715cabba602355d5
+---097ca6a347fbef554e9453180f1269147f68144f
+---7c0b6f49dbea0b09b1de8aa5c942af9c2ad8b54c
+---170c6152aebc5538db22dbdf56fba11ccba7a6f4
+skipping build change for ARCH_VT8500 as I can't seem to find its associated feature change
+---9ddebc46e70b434e485060f7c1b53c5b848a6c8c
+you are not handling multiple artefact type elegantly enough!
+skipping build change for CPU_CAVIUM_OCTEON as I can't seem to find its associated feature change
+skipping build change for CPU_CAVIUM_OCTEON as I can't seem to find its associated feature change
+---206f060c21503f33f9716710715cabba602355d5
+---0ca743a5599199152a31a7146b83213c786c2eb2
+not sure what type of reference change I am dealing with, skipping.
+---c19672492d233e0012b60fbfa460ffac1381ee26
+---e1d2e31975e1e3a31ac592d5b1c5cb5d655b3f4e
+skipping build change for FSL_USB2_OTG as I can't seem to find its associated feature change
+---736b24db32a806f79b43511e461321981bcfd5bf
+---7221fe4c2ed72804b28633c8e0217d65abb0023f
+---dcaf038493525604e3d1648d5761a852e8db2bf9
+not sure what type of reference change I am dealing with, skipping.
+---9370761c56b66aa5c65e069a7b010111a025018d
+---be8cb7f42ab9a8723082daa83ac28a11d4dde942
+---e58070ee4fdf797c47cb296992ce8db3df715eca
+skipping build change for SND_SOC as I can't seem to find its associated feature change
+---dbdf6b54340e1671439a4a5efbd15b7a0b14eacb
+skipping build change for SND_SOC_IMX_PCM_DMA as I can't seem to find its associated feature change
+skipping build change for SND_SOC_IMX_PCM_FIQ as I can't seem to find its associated feature change
+---8a73cd4cfa159918da405d9645deca842590e2fe
+---49649cad34c29dc26ed928191425e6677ca07918
+---2c973ef0cc3f981bfb137c3e42e08de5e8f1cc18
+not sure what type of reference change I am dealing with, skipping.
+---cafe563591446cf80bfbc2fe3bc72a2e36cf1060
+skipping build change for CFLAGS_request.o as I can't seem to find its associated feature change
+---7a332b0c9a59e0b0777dec55eefdda0f9a24ac52
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---f87d0fbb579818fed3eeb0923cc253163ab93039
+skipping build change for VHOST_NET as I can't seem to find its associated feature change
+---eb31628e37a0a4e01fffd79dcc7f815d2357f53a
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---96518518cc417bb0a8c80b9fb736202e28acdf96
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---206f060c21503f33f9716710715cabba602355d5
+---e76e1fdfa8f8dc1ea6699923cf5d92b5bee9c936
+---1ae0d202a56a18edd468d6fff6f060bfc30df222
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---4b08478422040ae8cb11acc15d51f1cdb0ac39c8
+skipping build change for KBUILD_AFLAGS as I can't seem to find its associated feature change
+skipping build change for head-y as I can't seem to find its associated feature change
+skipping build change for LIBGCC as I can't seem to find its associated feature change
+skipping build change for boot as I can't seem to find its associated feature change
+skipping build change for BOARD as I can't seem to find its associated feature change
+skipping build change for LDFLAGS as I can't seem to find its associated feature change
+skipping build change for ifdef PLATFORM as I can't seem to find its associated feature change
+skipping build change for MODEL as I can't seem to find its associated feature change
+skipping build change for libs-y as I can't seem to find its associated feature change
+skipping build change for PLATFORM as I can't seem to find its associated feature change
+skipping build change for core-y as I can't seem to find its associated feature change
+skipping build change for KBUILD_CFLAGS as I can't seem to find its associated feature change
+skipping build change for CLEAN_FILES as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_zImage as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.bin as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.srec as I can't seem to find its associated feature change
+skipping build change for subdir- as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_piggy.o as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_vmlinux as I can't seem to find its associated feature change
+skipping build change for asflags-y as I can't seem to find its associated feature change
+skipping build change for IMAGE_OFFSET as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for MODULES as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+---911af505ef407c2511106c224dd640f882f0f590
+---97411608fd5f17735f51103da08a738be1f932d9
+---99f42f937a080995b34e1ed75ed6934b5f96f9ca
+skipping build change for CRYPTO_CAMELLIA_AESNI_AVX2_X86_64 as I can't seem to find its associated feature change
+skipping build change for ifeq ($(avx2_supported),yes) as I can't seem to find its associated feature change
+---383ffda2fa8ff3c6380cc5be1eb6cde510de6fa8
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---40fa8e5da25b35fea0bcea113c61d72ae31f20fd
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---c67d0f29262bf6f863ce74d0756618bbd9ba80fd
+---54e4ff4d402450af5cec599f1cd9ab34997b3149
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---38bd6892abbf7d60b1e9ff7f1a2b8019b552eed3
+---d03bb1455f3a2804539ed27047fd3b073fdeb3e0
+---01718ba6ec30013c7d47084876b9c16471b291af
+skipping build change for PPC_BOOK3S_64 as I can't seem to find its associated feature change
+skipping build change for GENERIC_CPU as I can't seem to find its associated feature change
+---f6f91b0d9fd971c630cef908dde8fe8795aefbf8
+---fe7ef7c60c33fd339f40320fae76bc56d368dae5
+---206f060c21503f33f9716710715cabba602355d5
+---51b53dc991ae7eebc5d45b06d576da6486fbf823
+not sure what type of reference change I am dealing with, skipping.
+---3cb07ee66bca756921f0e967b687f4d0e05ba439
+---9ba96ae5074c9f15b357919e704ceba2bd34972d
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---a1a2bdec4772228274dfb3f9a41ac5234b93a5e9
+---971672c0b3ccd16ce53299f1ccac0253fc6d7bf6
+---7c3ad056ef79fd10f5f111c807ccbd9fa9068c7f
+---4b08478422040ae8cb11acc15d51f1cdb0ac39c8
+skipping build change for KBUILD_AFLAGS as I can't seem to find its associated feature change
+skipping build change for head-y as I can't seem to find its associated feature change
+skipping build change for LIBGCC as I can't seem to find its associated feature change
+skipping build change for boot as I can't seem to find its associated feature change
+skipping build change for BOARD as I can't seem to find its associated feature change
+skipping build change for LDFLAGS as I can't seem to find its associated feature change
+skipping build change for ifdef PLATFORM as I can't seem to find its associated feature change
+skipping build change for MODEL as I can't seem to find its associated feature change
+skipping build change for libs-y as I can't seem to find its associated feature change
+skipping build change for PLATFORM as I can't seem to find its associated feature change
+skipping build change for core-y as I can't seem to find its associated feature change
+skipping build change for KBUILD_CFLAGS as I can't seem to find its associated feature change
+skipping build change for CLEAN_FILES as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_zImage as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.bin as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS_vmlinux.srec as I can't seem to find its associated feature change
+skipping build change for subdir- as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for OBJCOPYFLAGS as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_piggy.o as I can't seem to find its associated feature change
+skipping build change for LDFLAGS_vmlinux as I can't seem to find its associated feature change
+skipping build change for asflags-y as I can't seem to find its associated feature change
+skipping build change for IMAGE_OFFSET as I can't seem to find its associated feature change
+skipping build change for targets as I can't seem to find its associated feature change
+skipping build change for MODULES as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for extra-y as I can't seem to find its associated feature change
+---206f060c21503f33f9716710715cabba602355d5
+---c4b058560762ec7ffe159b668fc47a8b7e271949
+---b56ece9a3ac3c9708b8f1cebf4ba24c258d40e52
+---69f366615e950cb0d5af89da228796af5208ad8f
+skipping weird line : loadaddr-y	:=
+skipping weird line : loadaddr-y	:=
+skipping build change for ARCH_SHMOBILE as I can't seem to find its associated feature change
+skipping build change for OF as I can't seem to find its associated feature change
+skipping build change for ARCH_AT91 as I can't seem to find its associated feature change
+---58264848a5a7b91195f43c4729072e8cc980288d
+skipping build change for OPENVSWITCH as I can't seem to find its associated feature change
+---4923ee444a39c8b75027ed01a7812e940194dbec
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for ARCH_MULTIPLATFORM as I can't seem to find its associated feature change
+skipping build change for ARCH_EXYNOS4 as I can't seem to find its associated feature change
+skipping build change for ARCH_MULTI_V7 as I can't seem to find its associated feature change
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for PLAT_SAMSUNG as I can't seem to find its associated feature change
+---5e3dd157d7e70f0e3cea3f2573ed69fb156a19d5
+skipping build change for CFLAGS_trace.o as I can't seem to find its associated feature change
+---59a2e613d07fbd592ff711c87458eabcf9c98902
+skipping weird line : obj-m :=
+skipping weird line : obj-n :=
+skipping weird line : obj-  :=
+skipping weird line : obj-m :=
+skipping weird line : obj-n :=
+skipping weird line : obj-  :=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---e76e1fdfa8f8dc1ea6699923cf5d92b5bee9c936
+---43d24e76b69826ce32292f47060ad78cdd0197fa
+---48a9db462d99494583dad829969616ac90a8df4e
+---9d488727b44881f96700a45fe80c3781ddd689d3
+---ffbc50663b69462adc9d97b93b6b92c4fe74b94c
+---166936bace056dfc11452d794209f39a5e9b0fb4
+---b30324adaf8d2e5950a602bde63030d15a61826f
+---98505ff9f2fa1a1b33d90d39ab76a54a3b189ee2
+---d95c785500f60c59e4257385af2cfee7d4044809
+---383ffda2fa8ff3c6380cc5be1eb6cde510de6fa8
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---c065edde73508c6da4afaf064e5999eb3e5aead1
+---994dcf7055df88623d25f3593b931a018a76b502
+---569fa26319203a41238e83340c54639eadfea89b
+---cfa66a81621d0e85ac03c0de25adc7edd7f2649e
+skipping weird line : loadaddr-y	:=
+skipping weird line : loadaddr-y	:=
+skipping build change for ARCH_SHMOBILE as I can't seem to find its associated feature change
+skipping build change for OF as I can't seem to find its associated feature change
+skipping build change for ARCH_AT91 as I can't seem to find its associated feature change
+---ca81a1a1b8d79dd6706c9463a81e9491e940ca2b
+skipping build change for 64BIT as I can't seem to find its associated feature change
+---3acd16ab5c1c4e2a679c5c3e082db648f0e85100
+---b98e01ad4ed9da6882b41983319361502aded307
+skipping build change for ARCH_KIRKWOOD as I can't seem to find its associated feature change
+---3d387ef08c40382315b8e9baa4bc9a07f7c49fce
+skipping build change for avx2_supported as I can't seem to find its associated feature change
+skipping build change for CRYPTO_CAMELLIA_AESNI_AVX2_X86_64 as I can't seem to find its associated feature change
+skipping build change for ifeq ($(avx2_supported),yes) as I can't seem to find its associated feature change
+---99486b8e6140da7721c932e708a6c17dc1dd970a
+---f023f8dd59bf93e29e9b9bd98a92eeef43b1a32a
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---84192742d9c26d75f26751f9e692cc68230d43a5
+---6e8c4a274c6704088ab2d59fe92b092196ada2a1
+---2326f04321a9aec591c1d159b3a9d12c2bf89438
+skipping build change for obj-y as I can't seem to find its associated feature change
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---4984c6f5e56c3e68922fd979347ba7aff385783b
+---e5a639421821c7cd11832fd7fbe6376bfb304880
+skipping build change for obj-y as I can't seem to find its associated feature change
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---05cefbe2f22e551594c5ec618102a35317bd050d
+skipping build change for obj-y as I can't seem to find its associated feature change
+---a9302e8439445710552886e7b623dbcfa943a1f2
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for AUDIT as I can't seem to find its associated feature change
+---f708364b676a2e6817124392dc5f1731a33cf25b
+---5b65fc560398dd849dbe9f0df68d3934089c894a
+skipping build change for ARCH_MULTIPLATFORM as I can't seem to find its associated feature change
+---45ae7cff3684ab45f57fc13fc242c8546536a84e
+---206f060c21503f33f9716710715cabba602355d5
+---f023f8dd59bf93e29e9b9bd98a92eeef43b1a32a
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---b7b741ea38a32336b45870b76aaec1abe57badd0
+skipping build change for musb_hdrc-$(CONFIG_USB_MUSB_HOST)$(CONFIG_USB_MUSB_DUAL_ROLE) as I can't seem to find its associated feature change
+skipping build change for musb_hdrc-$(CONFIG_USB_MUSB_GADGET)$(CONFIG_USB_MUSB_DUAL_ROLE) as I can't seem to find its associated feature change
+skipping build change for USB_MUSB_HDRC as I can't seem to find its associated feature change
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---930beb5ac09aaeee48d81c57aec0d17a42a33ce8
+---f023f8dd59bf93e29e9b9bd98a92eeef43b1a32a
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---217091dd7a7a1bdac027ddb7c5a25f6ac0b8e241
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---be8cb7f42ab9a8723082daa83ac28a11d4dde942
+---c67d0f29262bf6f863ce74d0756618bbd9ba80fd
+---0d89d2035fe063461a5ddb609b2c12e7fb006e44
+skipping build change for obj-y as I can't seem to find its associated feature change
+---eb869ade30a645dd2fadd89453615585f235794e
+---dfb9f94e8e5e7f73c8e2bcb7d4fb1de57e7c333d
+---ccb7cc749f78166178184f77dd95ea24db9d5bb0
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---4571912743ac6a04a6644e5a292bb9876bb5329b
+not sure what type of reference change I am dealing with, skipping.
+---569fa26319203a41238e83340c54639eadfea89b
+---622e03eb3498c32ee29de5c1d6d381f443e58fad
+---a1c9a9d9984d9acf276089525b43a6528feab29b
+---cddc1424f39e7c04045a6431eaf13a003fb8335a
+---1d87a8f2911fe6c22416f4a5dc5e0362f5bb9ef4
+---206f060c21503f33f9716710715cabba602355d5
+---1d8fc2518c1cddef0902b0a2c51946732a0982fc
+---95807689eab8441737572d1a9daaa1025429a908
+---933ee7119fb14156f46dc8bce8218f62db13c568
+---c1fcd403ced3ad0d63418cc1120e1562283b16ce
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+---5026aecf9bd51a95bcacdfac150f2204aafdc8c2
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---a977e18e4cfc2ed73cc5bf05642f21323d9ec517
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+---8f0cdcc5700d9f9508385f41f6047fca82334eba
+---206f060c21503f33f9716710715cabba602355d5
+---ef1ab239c0c7de29072577bc8a39859074603948
+skipping weird line : obj-m		:=
+skipping weird line : obj-n		:=
+skipping weird line : obj-		:=
+skipping weird line : obj-m		:=
+skipping weird line : obj-n		:=
+skipping weird line : obj-		:=
+---b4f711ee03d28f776fd2324fd0bd999cc428e4d2
+---33036f48d13caaa31a568dc677cc76739f440e6e
+not sure what type of reference change I am dealing with, skipping.
+---4a7d666a7202744af32d4da31fb52857b7d86850
+skipping build change for STMMAC_ETH as I can't seem to find its associated feature change
+---0dafafc3ef42bad34fd446725cb9778c3bdd83a8
+---217494e5b780ad85485c1bb6382ce50b5fa2dc26
+skipping build change for obj-y as I can't seem to find its associated feature change
+skipping build change for IIO_BUFFER as I can't seem to find its associated feature change
+---84b6504f560157ff2077dd3757eee481b81dc39b
+---30bac9110455402fa8888740c6819dd3daa2666f
+---a03636cb21af1d22a894a5a863b2ba3c3687da63
+[Fatal Error] old_fm04385808073546548686.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm04385808073546548686.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] new_fm0759322989497831154.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/new_fm0759322989497831154.fm
+ producing an empty feature model for this one (might be perfectly valid)
+[Fatal Error] old_fm16740322960207890986.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm16740322960207890986.fm
+ producing an empty feature model for this one (might be perfectly valid)
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+not sure what type of reference change I am dealing with, skipping.
+[Fatal Error] old_fm53015779108066734101.fm:1:1: Premature end of file.
+Parsing of the file failed - check path &  content /var/folders/13/9bwtmlcs7_l5yfxnmygfzr880000gn/T/old_fm53015779108066734101.fm
+ producing an empty feature model for this one (might be perfectly valid)
+---f98823ac758ba1aa77c6e3f8ad4ef3ad84ee0a7c
+---e350cd1d9308b67363ebb870a678a1fd807df1a6
+---24a70cf2b28e24aa31c4f9bc310cc274c0a90183
+---84ebc10294a3d7be4c66f51070b7aedbaa24de9b
+---668761ac01d6f5a36b8e5a24d4e154550e2c4c3b
+---84ebc10294a3d7be4c66f51070b7aedbaa24de9b
+---405fea1c6691eb8259f2ca879c9348a4cf5d898d
+skipping build change for AB8500_BM as I can't seem to find its associated feature change
+---ba166e900b502b74b9425881caa94f94891b0a1f
+---0ec315121c8391a14bbeb5eecc146c470dfc00cb
+---0244ad004a54e39308d495fee0a2e637f8b5c317
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---f7c1285f0eba8e0910decc0fa5b409f886e4358e
+---ecd73cc5c9e137559f4625b347f20cf9ed0de3d5
+---1696d9dc57e062ce5200f6a42a6aaada15b434bb
+---280481d06c8a683d9aaa26125476222e76b733c5
+---5d9efa7ee99eed58388f186c13cf2e2a87e9ceb4
+---4ddfebd3b0d5b65c69492408bb67fd1202104643
+---09df7c4c8097ca4a11393b1edd4997d786daad52
+---e269a869417cd4053b37da1b19186902d3cbf63b
+---8bc588e0e585bc9085df75e84d4d5635f45cf360
+---9773696105534dd5193576adfe4a0117a6489c64
+---3451d0243c3cdfd729b36f9684a14659d4895ca3
+---aceca2854498de7384ee7b44d8eb7820fd4c7f16
+---b92021b09df70c1609e3547f3d6128dd560be97f
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_AFLAGS_KERNEL :=
+skipping weird line : KBUILD_CFLAGS_KERNEL :=
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_AFLAGS_KERNEL :=
+skipping weird line : KBUILD_CFLAGS_KERNEL :=
+skipping build change for clean as I can't seem to find its associated feature change
+skipping build change for hdr-inst as I can't seem to find its associated feature change
+skipping build change for _cpp_flags as I can't seem to find its associated feature change
+skipping build change for _a_flags as I can't seem to find its associated feature change
+---a38884f681a4d044befd30d9f3d19a0821bae63a
+skipping build change for OF as I can't seem to find its associated feature change
+---6276a074c6519946c527f03e2ab69770a62652d9
+skipping build change for obj-y as I can't seem to find its associated feature change
+---f6f91b0d9fd971c630cef908dde8fe8795aefbf8
+---89693016e372983d720c186c0d00b29414b58804
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping build change for S5P_PM as I can't seem to find its associated feature change
+skipping build change for PM as I can't seem to find its associated feature change
+skipping build change for PM as I can't seem to find its associated feature change
+---bb33381d0c97cdee25f2cdab540b6e2bd16fa03b
+---230100276955529d5a7c69207421756b9a61a8e5
+---5700f743b597951743da9c7d891d3989aac0486e
+---99bbc70741903c063b3ccad90a3e06fc55df9245
+---bc08b449ee14ace4d869adaa1bb35a44ce68d775
+---0b4cccbec60678212eccdb42dc1e1c233ddf7092
+---726a85caa30201eaadb993397a3e8ec23949c608
+---cf89c4262bd5fa70e67953126001c08ecea4f346
+---c817a67ecba7c3c2aaa104796d78f160af60920d
+---54e4ff4d402450af5cec599f1cd9ab34997b3149
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---54e4ff4d402450af5cec599f1cd9ab34997b3149
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---4520f53a159fb81b8c27afe52428a0959aff259c
+---cc1f027454929924471bea2f362431072e3c71be
+---741ecef62a37bcc368ff8c7282f810327edc3d94
+---6e2ac20e9c47cf26a1dd5a0f05b93ef0afd3c1c5
+---f615136c06a791364f5afa8b8ba965315a6440f1
+---1b945aeef0b9cb5e98d682c310272b08198e54b5
+---668761ac01d6f5a36b8e5a24d4e154550e2c4c3b
+---84ebc10294a3d7be4c66f51070b7aedbaa24de9b
+---405fea1c6691eb8259f2ca879c9348a4cf5d898d
+skipping build change for AB8500_BM as I can't seem to find its associated feature change
+---ba166e900b502b74b9425881caa94f94891b0a1f
+---0ec315121c8391a14bbeb5eecc146c470dfc00cb
+---0244ad004a54e39308d495fee0a2e637f8b5c317
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---f7c1285f0eba8e0910decc0fa5b409f886e4358e
+---ecd73cc5c9e137559f4625b347f20cf9ed0de3d5
+---1696d9dc57e062ce5200f6a42a6aaada15b434bb
+---280481d06c8a683d9aaa26125476222e76b733c5
+---5d9efa7ee99eed58388f186c13cf2e2a87e9ceb4
+---4ddfebd3b0d5b65c69492408bb67fd1202104643
+---09df7c4c8097ca4a11393b1edd4997d786daad52
+---e269a869417cd4053b37da1b19186902d3cbf63b
+---8bc588e0e585bc9085df75e84d4d5635f45cf360
+---9773696105534dd5193576adfe4a0117a6489c64
+---3451d0243c3cdfd729b36f9684a14659d4895ca3
+---aceca2854498de7384ee7b44d8eb7820fd4c7f16
+---b92021b09df70c1609e3547f3d6128dd560be97f
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_AFLAGS_KERNEL :=
+skipping weird line : KBUILD_CFLAGS_KERNEL :=
+skipping weird line : KBUILD_MODULES :=
+skipping weird line : KBUILD_AFLAGS_KERNEL :=
+skipping weird line : KBUILD_CFLAGS_KERNEL :=
+skipping build change for clean as I can't seem to find its associated feature change
+skipping build change for hdr-inst as I can't seem to find its associated feature change
+skipping build change for _cpp_flags as I can't seem to find its associated feature change
+skipping build change for _a_flags as I can't seem to find its associated feature change
+---a38884f681a4d044befd30d9f3d19a0821bae63a
+skipping build change for OF as I can't seem to find its associated feature change
+---6276a074c6519946c527f03e2ab69770a62652d9
+skipping build change for obj-y as I can't seem to find its associated feature change
+---f6f91b0d9fd971c630cef908dde8fe8795aefbf8
+---89693016e372983d720c186c0d00b29414b58804
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-n				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping weird line : obj-y				:=
+skipping weird line : obj-m				:=
+skipping weird line : obj-				:=
+skipping build change for S5P_PM as I can't seem to find its associated feature change
+skipping build change for PM as I can't seem to find its associated feature change
+skipping build change for PM as I can't seem to find its associated feature change
+---bb33381d0c97cdee25f2cdab540b6e2bd16fa03b
+---230100276955529d5a7c69207421756b9a61a8e5
+---5700f743b597951743da9c7d891d3989aac0486e
+---99bbc70741903c063b3ccad90a3e06fc55df9245
+---bc08b449ee14ace4d869adaa1bb35a44ce68d775
+---0b4cccbec60678212eccdb42dc1e1c233ddf7092
+---726a85caa30201eaadb993397a3e8ec23949c608
+---cf89c4262bd5fa70e67953126001c08ecea4f346
+---c817a67ecba7c3c2aaa104796d78f160af60920d
+---54e4ff4d402450af5cec599f1cd9ab34997b3149
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---54e4ff4d402450af5cec599f1cd9ab34997b3149
+not sure what type of reference change I am dealing with, skipping.
+skipping build change for obj-y as I can't seem to find its associated feature change
+---4520f53a159fb81b8c27afe52428a0959aff259c
+---cc1f027454929924471bea2f362431072e3c71be
+---741ecef62a37bcc368ff8c7282f810327edc3d94
+---6e2ac20e9c47cf26a1dd5a0f05b93ef0afd3c1c5
+---f615136c06a791364f5afa8b8ba965315a6440f1
+---1b945aeef0b9cb5e98d682c310272b08198e54b5

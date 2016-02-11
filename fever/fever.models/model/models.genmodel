@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fever.models/src" modelPluginID="fever.models"
+    modelName="Models" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>models.ecore</foreignModel>
+  <genPackages prefix="Models" disposableProviderFactory="true" ecorePackage="models.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="models.ecore#//VariabilityTypes">
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//VariabilityTypes/BOOLEAN"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//VariabilityTypes/TRISTATE"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//VariabilityTypes/INT"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//VariabilityTypes/HEX"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//VariabilityTypes/STRING"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="models.ecore#//CompilationTargetType">
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//CompilationTargetType/COMPILATION_UNIT"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//CompilationTargetType/FOLDER"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//CompilationTargetType/CC_FLAG"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="models.ecore#//ChangeType">
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//ChangeType/ADDED"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//ChangeType/REMOVED"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//ChangeType/MODIFIED"/>
+      <genEnumLiterals ecoreEnumLiteral="models.ecore#//ChangeType/MOVED"/>
+    </genEnums>
+    <genClasses ecoreClass="models.ecore#//VariabilityModel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//VariabilityModel/spl"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//VariabilityModel/features"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//BuildModel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//BuildModel/spl"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//BuildModel/features"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//BuildModel/symbols"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//ImplementationModel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ImplementationModel/spl"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ImplementationModel/valueFeatures"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ImplementationModel/constants"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ImplementationModel/blocks"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ImplementationModel/file_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ImplementationModel/chane"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//SPL">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//SPL/revision"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//SPL/variabilitymodel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//SPL/buildmodel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//SPL/implementationmodel"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//VariabilityModelEntity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/flags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/prompt"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//VariabilityModelEntity/defaultValues"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//VariabilityModelEntity/selects"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/PromptCondition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/PresenceCondition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/Depends"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//VariabilityModelEntity/External"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//Feature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//Feature/name"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//Choice"/>
+    <genClasses ecoreClass="models.ecore#//DefaultValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//DefaultValue/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//DefaultValue/condition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//DefaultValue/order"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//DefaultValue/id"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//Select">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//Select/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//Select/condition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//Select/id"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//MappedFeature">
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//MappedFeature/targets"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//MappedFeature/featureName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//MappedFeature/id"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//CompilationTarget">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CompilationTarget/targetName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CompilationTarget/targetType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CompilationTarget/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CompilationTarget/mappedToSymbol"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//MakeSymbol">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//MakeSymbol/name"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//MakeSymbol/targets"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//ReferencedValueFeature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ReferencedValueFeature/name"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//ConditionalBlock">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ConditionalBlock/start"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ConditionalBlock/end"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ConditionalBlock/condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ConditionalBlock/valueFeatures"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ConditionalBlock/touched"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ConditionalBlock/expression"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ConditionalBlock/lines"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference models.ecore#//ConditionalBlock/editedBy"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//FeatureConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//FeatureConstant/name"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//ImplementationLine">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//ImplementationLine/line"/>
+    </genClasses>
+    <genClasses ecoreClass="models.ecore#//CodeEdit">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CodeEdit/rem_idx"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CodeEdit/add_idx"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CodeEdit/rem_size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CodeEdit/add_size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute models.ecore#//CodeEdit/diff"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

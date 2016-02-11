@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/jcypher-2.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/javax.json-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/server-api-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Fever"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/org.eclipse.jgit-3.7.0.201502260915-r.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/jersey-client-2.21.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/jersey-common-2.21.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/jersey-server-2.21.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/jersey-guava-2.8.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/hk2-utils-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/hk2-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/hk2-locator-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/git/SPLR-FEVER/fever/libs/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-consistency-check-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-csv-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-cypher-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-cypher-compiler-1.9-2.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-cypher-compiler-2.0-2.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-cypher-compiler-2.1-2.1.8.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-cypher-compiler-2.2-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-graph-algo-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-graph-matching-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-import-tool-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-io-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-jmx-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-kernel-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-lucene-index-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-primitive-collections-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-shell-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-udc-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/neo4j-unsafe-2.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/scala-library-2.10.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/concurrentlinkedhashmap-lru-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/lucene-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/parboiled-core-1.1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Dante/Documents/workspace/tools/neo4j-2.2.5/lib/parboiled-scala_2.10-1.1.7.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

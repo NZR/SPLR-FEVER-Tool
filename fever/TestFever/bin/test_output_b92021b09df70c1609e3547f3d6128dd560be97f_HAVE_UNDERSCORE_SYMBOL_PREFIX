@@ -1,0 +1,37 @@
+TEST : HAVE_UNDERSCORE_SYMBOL_PREFIX - b92021b09df70c1609e3547f3d6128dd560be97f
+== NO file changes
+== NO mapping changes
+== implementation changes
+	include/linux/export.h
+		(!defined(_LINUX_EXPORT_H)) && (defined(CONFIG_HAVE_UNDERSCORE_SYMBOL_PREFIX)) [13-16]
+@@ -13,2 +13,3 @@
+-#ifdef CONFIG_SYMBOL_PREFIX
+-#define MODULE_SYMBOL_PREFIX CONFIG_SYMBOL_PREFIX
++#ifdef CONFIG_HAVE_UNDERSCORE_SYMBOL_PREFIX
++#define __VMLINUX_SYMBOL(x) _##x
++#define __VMLINUX_SYMBOL_STR(x) "_" #x
+
+	include/linux/export.h
+		(!defined(_LINUX_EXPORT_H)) && (!(defined(CONFIG_HAVE_UNDERSCORE_SYMBOL_PREFIX))) [16-19]
+@@ -16 +17,2 @@
+-#define MODULE_SYMBOL_PREFIX ""
++#define __VMLINUX_SYMBOL(x) x
++#define __VMLINUX_SYMBOL_STR(x) #x
+
+	scripts/link-vmlinux.sh
+		 No changes in that specific file	scripts/mod/modpost.c
+		defined(CONFIG_HAVE_UNDERSCORE_SYMBOL_PREFIX) [633-638]
+@@ -640,5 +633,7 @@
+-		if (memcmp(symname, MODULE_SYMBOL_PREFIX,
+-			   strlen(MODULE_SYMBOL_PREFIX)) == 0) {
+-			mod->unres =
+-			  alloc_symbol(symname +
+-			               strlen(MODULE_SYMBOL_PREFIX),
++#ifdef CONFIG_HAVE_UNDERSCORE_SYMBOL_PREFIX
++		if (symname[0] != '_')
++			break;
++		else
++			symname++;
++#endif
++		mod->unres = alloc_symbol(symname,
+

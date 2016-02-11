@@ -1,0 +1,24 @@
+TEST : PINCTRL - 741ecef62a37bcc368ff8c7282f810327edc3d94
+== NO file changes
+== NO mapping changes
+== implementation changes
+	arch/blackfin/include/asm/portmux.h
+		(!defined(_PORTMUX_H_)) && (defined(CONFIG_PINCTRL)) [20-32]
+@@ -19,0 +20,2 @@
++#ifdef CONFIG_PINCTRL
++#include <asm/irq_handler.h>
+@@ -20,0 +23,10 @@
++#define gpio_pint_regs bfin_pint_regs
++#define adi_internal_set_wake bfin_internal_set_wake
++
++#define peripheral_request(per, label) 0
++#define peripheral_free(per)
++#define peripheral_request_list(per, label) \
++	(pdev ? (IS_ERR(devm_pinctrl_get_select_default(&pdev->dev)) \
++	? -EINVAL : 0) : 0)
++#define peripheral_free_list(per)
++#else
+
+	arch/blackfin/include/asm/portmux.h
+		(!defined(_PORTMUX_H_)) && (!(defined(CONFIG_PINCTRL))) [32-37]
+

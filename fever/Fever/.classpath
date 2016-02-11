@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="model.src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="../libs/com.google.guava_15.0.0.v201403281430.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf_2.6.0.v20150123-0452.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.compare_3.1.2.201501201328.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.compare.rcp_2.2.1.201501201328.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.ecore_2.10.2.v20150123-0348.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar"/>
+	<classpathentry kind="lib" path="../libs/org.eclipse.jgit-3.7.0.201502260915-r.jar"/>
+	<classpathentry kind="lib" path="../libs/slf4j-api-1.7.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
